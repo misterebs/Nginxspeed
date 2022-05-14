@@ -32,7 +32,7 @@ cd nginx-${NGINX_VERSION}/
 make
 make install
 useradd -r nginx
-wget -O /etc/init.d/nginx https://gist.githubusercontent.com/jimaek/8762efcc949675fe8d52/raw/b8195a71e944d46271c8a49f2717f70bcd04bf1a/gistfile1.txt
+wget -O /etc/init.d/nginx https://gist.githubusercontent.com/misterebs/4d868d0a2478c5c5215a66c47ec8f025/raw/949609d79d97a2731ef30aaa60d8ca139b4d1d2f/nginx_init.txt
 chmod +x /etc/init.d/nginx
 chkconfig --add nginx
 chkconfig --level 345 nginx on
